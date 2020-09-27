@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
@@ -23,13 +25,14 @@
                     <div class="header__logo">
                         <img src="http://muzaddidul.com/conzex/assets/img/logo/logo.png" class='header__logo__img'>
                     </div>
+                    
                     <ul class="header__menu">
                         <li class="header__menu__link">
                             <span class="header__menu__link__text">Home</span>
                             <div class="header__menu__dropdown">
                                 <div class="container">
                                     <div class="row row1">
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-1.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -37,7 +40,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-2.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -45,7 +48,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-3.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -53,7 +56,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-4.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -63,7 +66,7 @@
                                         </div>
                                     </div>
                                     <div class="row row2">
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-5.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -71,7 +74,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-6.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -79,7 +82,7 @@
                                                 </span>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-3 col-6">
                                             <div class="header__menu__dropdown__item">
                                                 <img src="http://muzaddidul.com/conzex/assets/img/demo/home-7.png" alt="" class="header__menu__dropdown__item__img">
                                                 <span class="header__menu__dropdown__item__title">
@@ -90,12 +93,19 @@
                                     </div>
                                 </div>
                             </div>
+                            <span class="header__menu__link__icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
                         </li>
                         <li class="header__menu__link">
                             <span class="header__menu__link__text">About</span>
+                           
                         </li>
                         <li class="header__menu__link">
                             <span class="header__menu__link__text">Shop</span>
+                            <span class="header__menu__link__icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
                             <ul class="header__menu__link__submenu">
                                 <li class="header__menu__link__submenu__item">Shop</li>
                                 <li class="header__menu__link__submenu__item">Shop Grid</li>
@@ -106,7 +116,11 @@
                             </ul>
                         </li>
                         <li class="header__menu__link">
+                            
                             <span class="header__menu__link__text">Pages</span>
+                            <span class="header__menu__link__icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
                             <ul class="header__menu__link__submenu">
                                 <li class="header__menu__link__submenu__item">Shop</li>
                                 <li class="header__menu__link__submenu__item">Shop Grid</li>
@@ -121,10 +135,13 @@
                         </li>
                         <li class="header__menu__link">
                             <span class="header__menu__link__text">Blog</span>
+                            <span class="header__menu__link__icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
                             <div class="header__menu__dropdown">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-12">
                                             <div class="header__menu__dropdrown__card">
                                                 <h2 class="header__menu__dropdrown__card__title">
                                                     Blog Grid
@@ -139,7 +156,7 @@
                                             </div>
                                             
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-12">
                                             <div class="header__menu__dropdrown__card">
                                                 <h2 class="header__menu__dropdrown__card__title">
                                                     Blog Grid
@@ -153,7 +170,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-12">
                                             <div class="header__menu__dropdrown__card">
                                                 <h2 class="header__menu__dropdrown__card__title">
                                                     Blog Grid
@@ -173,6 +190,9 @@
                         </li>
                         <li class="header__menu__link">
                             <span class="header__menu__link__text">Elements</span>
+                            <span class="header__menu__link__icon">
+                                <i class="fas fa-chevron-down"></i>
+                            </span>
                             <div class="header__menu__dropdown">
                                 <div class="container">
                                     <div class="row">
@@ -245,6 +265,9 @@
                             LOGIN
                         </button>
                     </ul>
+                    <div class="header__hamburger">
+                        <i class="fas fa-bars"></i>
+                    </div>
                 </div>
                 <div class="header__main">
                     <h1 class="header__title">
@@ -266,7 +289,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="manager__item">
+                    <div class="manager__item wow animate__animated  animate__fadeInUp">
                         <div class="manager__item__icon">
                             <i class="fas fa-cog"></i>
                         </div>
@@ -278,7 +301,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="manager__item">
+                    <div class="manager__item wow animate__animated  animate__fadeInUp "data-wow-delay="0.05s">
                         <div class="manager__item__icon">
                             <i class="fas fa-shield-alt"></i>
                         </div>
@@ -290,7 +313,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="manager__item">
+                    <div class="manager__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="manager__item__icon">
                             <i class="fas fa-users-cog"></i>
                         </div>
@@ -302,7 +325,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="manager__item">
+                    <div class="manager__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.15s">
                         <div class="manager__item__icon">
                             <i class="fas fa-user-lock"></i>
                         </div>
@@ -329,7 +352,7 @@ tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp ">
                     <div class="service__item">
                         <h3 class="service_item__title">
                             Cloud databases
@@ -339,7 +362,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp "data-wow-delay="0.05s">
                     <div class="service__item">
                         <h3 class="service_item__title">
                            Website Hosting
@@ -348,7 +371,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp "data-wow-delay="0.1s">
                     <div class="service__item">
                         <h3 class="service_item__title">
                             Cloud databases
@@ -358,7 +381,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp">
                     <div class="service__item">
                         <h3 class="service_item__title">
                             Cloud databases
@@ -368,7 +391,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp " data-wow-delay="0.05s">
                     <div class="service__item">
                         <h3 class="service_item__title">
                             Cloud databases
@@ -378,7 +401,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  wow animate__animated  animate__fadeInUp "data-wow-delay="0.1s">
                     <div class="service__item">
                         <h3 class="service_item__title">
                             Cloud databases
@@ -411,7 +434,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                 <div class="col-lg-4">
                     <div class="service2__right">
                         <ul class="service2__right__list">
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -419,7 +442,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                                     Responsive design
                                 </span>
                             </li>
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -427,7 +450,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                                     Android apps development
                                 </span>
                             </li>
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.2s">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -435,7 +458,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                                     iOS apps development
                                 </span>
                             </li>
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.3s">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -443,7 +466,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                                     UX/UI design
                                 </span>
                             </li>
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.4s">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -451,7 +474,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                                     E-commerce development
                                 </span>
                             </li>
-                            <li class="service2__right__item">
+                            <li class="service2__right__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.5s">
                                 <div class="service2__right__item__icon">
                                     <i class="fas fa-check"></i>
                                 </div>
@@ -476,7 +499,7 @@ tempor incididunt ut labore et dolore magna aliqua.
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="fas fa-cogs"></i>
@@ -492,7 +515,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="far fa-comment-alt"></i>
@@ -508,7 +531,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.2s">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="fas fa-columns"></i>
@@ -524,7 +547,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.3s">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="fas fa-desktop"></i>
@@ -542,7 +565,7 @@ tempor incididunt ut labore et dolore magna aliqua.
 
                 </div>
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.4s">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="far fa-hand-paper"></i>
@@ -560,7 +583,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="feature__item">
+                    <div class="feature__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.5s">
                         <div class="feature__item__wrap">
                             <div class="feature__item__icon">
                                 <i class="fas fa-chart-line"></i>
@@ -597,7 +620,7 @@ tempor incididunt ut labore et dolore magna aliqua.
          <div class="container">
              <div class="row">
                  <div class="col-lg-3">
-                     <div class="team__item">
+                     <div class="team__item wow animate__animated  animate__fadeInUp">
                          <img src="http://muzaddidul.com/conzex/assets/img/team/team-a-sq-2.png" alt="" class="team__item__img">
                          <h3 class="team__item__name">
                              Mashok Khan
@@ -616,7 +639,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                      </div>
                  </div>
                  <div class="col-lg-3">
-                    <div class="team__item">
+                    <div class="team__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
                         <img src="http://muzaddidul.com/conzex/assets/img/team/team-a-sq-2.png" alt="" class="team__item__img">
                         <h3 class="team__item__name">
                             Mashok Khan
@@ -635,7 +658,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                  </div>
                  <div class="col-lg-3">
-                    <div class="team__item">
+                    <div class="team__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.2s">
                         <img src="http://muzaddidul.com/conzex/assets/img/team/team-a-sq-2.png" alt="" class="team__item__img">
                         <h3 class="team__item__name">
                             Mashok Khan
@@ -654,7 +677,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                  </div>
                  <div class="col-lg-3">
-                    <div class="team__item">
+                    <div class="team__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.3s">
                         <img src="http://muzaddidul.com/conzex/assets/img/team/team-a-sq-2.png" alt="" class="team__item__img">
                         <h3 class="team__item__name">
                             Mashok Khan
@@ -683,11 +706,11 @@ tempor incididunt ut labore et dolore magna aliqua.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div class="container">
+        <div class="container statistic--custom">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="statistic__item">
-                        <p class="statistic__item__number">
+                    <div class="statistic__item wow animate__animated  animate__fadeInUp">
+                        <p class="statistic__item__number" data-count=160>
                             160K
                         </p>
                         <span class="statistic__item__desc">
@@ -696,8 +719,8 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="statistic__item">
-                        <p class="statistic__item__number">
+                    <div class="statistic__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
+                        <p class="statistic__item__number" data-count=20>
                             20K
                         </p>
                         <span class="statistic__item__desc">
@@ -706,8 +729,8 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="statistic__item">
-                        <p class="statistic__item__number">
+                    <div class="statistic__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.2s">
+                        <p class="statistic__item__number" data-count=500>
                             500K
                         </p>
                         <span class="statistic__item__desc">
@@ -716,8 +739,8 @@ tempor incididunt ut labore et dolore magna aliqua.
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="statistic__item">
-                        <p class="statistic__item__number">
+                    <div class="statistic__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.3s">
+                        <p class="statistic__item__number" data-count=65>
                             65K
                         </p>
                         <span class="statistic__item__desc">
@@ -751,19 +774,19 @@ tempor incididunt ut labore et dolore magna aliqua.
                 tempor incididunt ut labore et dolore magna aliqua.
              </p>
              <ul class="product__menu">
-                 <li class="product__menu__text product__active">
+                 <li class="product__menu__text product__active" data-filter='*'>
                      All
                  </li>
-                 <li class="product__menu__text">
+                 <li class="product__menu__text" data-filter='.marketing'>
                     Marketing
                 </li>
-                <li class="product__menu__text">
+                <li class="product__menu__text" data-filter='.application'>
                     Application
                 </li>
-                <li class="product__menu__text">
+                <li class="product__menu__text" data-filter='.design'>
                     Design
                 </li>
-                <li class="product__menu__text">
+                <li class="product__menu__text" data-filter='.develop'>
                     Development
                 </li>
              </ul>
@@ -777,37 +800,37 @@ tempor incididunt ut labore et dolore magna aliqua.
                                 <div class="grid-col grid-col--2"></div>
                                 <div class="grid-col grid-col--3"></div>
                                 <!-- items -->
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item marketing">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg1.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
                                     </div>
                                 </div>
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item application">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg2.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
                                     </div>
                                 </div>
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item design">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg3.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
                                     </div>
                                 </div>
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item marketing">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg4.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
                                     </div>
                                 </div>
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item develop">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg6.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
                                     </div>
                                 </div>
-                                <div class="grid-item product__item">
+                                <div class="grid-item product__item design">
                                     <img src="http://muzaddidul.com/conzex/assets/img/portfolio/bg5.png" alt="">
                                     <div class="product__item__bg">
                                         <i class="fas fa-plus"></i>
@@ -833,7 +856,7 @@ tempor incididunt ut labore et dolore magna aliqua.
          <div class="container">
              <div class="row">
                  <div class="col-lg-4">
-                     <div class="price__item">
+                     <div class="price__item wow animate__animated  animate__fadeInLeft" data-wow-delay="0.1s">
                         <div class="price__item__wrap">
                             <span class="price__item__name">
                                 Basic plan
@@ -874,7 +897,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                      </div>
                  </div>
                  <div class="col-lg-4">
-                       <div class="price__item">
+                       <div class="price__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="price__item__wrap">
                             <span class="price__item__name">
                                 Advanced Plan
@@ -915,7 +938,7 @@ tempor incididunt ut labore et dolore magna aliqua.
                      </div>
                  </div>
                  <div class="col-lg-4">
-                    <div class="price__item">
+                    <div class="price__item wow animate__animated  animate__fadeInRight" data-wow-delay="0.1s">
                         <div class="price__item__wrap">
                             <span class="price__item__name">
                                 Expert Plan
@@ -958,8 +981,369 @@ tempor incididunt ut labore et dolore magna aliqua.
              </div>
          </div>
     </div>
-    <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+    <div class="feedback">
+        <h2 class="service__title">
+            What Users Saying
+        </h2>
+         <p class="service__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12">
+                    <div class=" owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="feedback__item">
+                                <img src="http://muzaddidul.com/conzex/assets/img/testimonial/img1.png" alt="" class="feedback__item__img">
+                                 <div class="feedback__item__content">
+                                     <span class="feedback__item__content__qoute">
+                                           <i class="fas fa-quote-left"></i>                                
+                                       </span>
+                                     <p class="feedback__item__content__text">
+                                         Voluptatibus, omnis nobis error reprehenderit perferendis velit quasi quos id deserunt accusantium eligendi cum quibusdam, voluptatem, inventore qui repudiandae architecto, accusantium, saepe modi reprehenderit minima incidunt
+                                     </p>
+                                     <p class="feedback__item__content__name">
+                                         James H. Cervantez
+                                     </p>
+                                     <p class="feedback__item__content__position">
+                                         Web Developer
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="item">
+                            <div class="feedback__item">
+                                <img src="http://muzaddidul.com/conzex/assets/img/testimonial/img1.png" alt="" class="feedback__item__img">
+                                 <div class="feedback__item__content">
+                                     <span class="feedback__item__content__qoute">
+                                           <i class="fas fa-quote-left"></i>                                
+                                       </span>
+                                     <p class="feedback__item__content__text">
+                                         Voluptatibus, omnis nobis error reprehenderit perferendis velit quasi quos id deserunt accusantium eligendi cum quibusdam, voluptatem, inventore qui repudiandae architecto, accusantium, saepe modi reprehenderit minima incidunt
+                                     </p>
+                                     <p class="feedback__item__content__name">
+                                         James H. Cervantez
+                                     </p>
+                                     <p class="feedback__item__content__position">
+                                         Web Developer
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="item">
+                            <div class="feedback__item">
+                                <img src="http://muzaddidul.com/conzex/assets/img/testimonial/img1.png" alt="" class="feedback__item__img">
+                                 <div class="feedback__item__content">
+                                     <span class="feedback__item__content__qoute">
+                                           <i class="fas fa-quote-left"></i>                                
+                                       </span>
+                                     <p class="feedback__item__content__text">
+                                         Voluptatibus, omnis nobis error reprehenderit perferendis velit quasi quos id deserunt accusantium eligendi cum quibusdam, voluptatem, inventore qui repudiandae architecto, accusantium, saepe modi reprehenderit minima incidunt
+                                     </p>
+                                     <p class="feedback__item__content__name">
+                                         James H. Cervantez
+                                     </p>
+                                     <p class="feedback__item__content__position">
+                                         Web Developer
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="item">
+                            <div class="feedback__item">
+                                <img src="http://muzaddidul.com/conzex/assets/img/testimonial/img1.png" alt="" class="feedback__item__img">
+                                 <div class="feedback__item__content">
+                                     <span class="feedback__item__content__qoute">
+                                           <i class="fas fa-quote-left"></i>                                
+                                       </span>
+                                     <p class="feedback__item__content__text">
+                                         Voluptatibus, omnis nobis error reprehenderit perferendis velit quasi quos id deserunt accusantium eligendi cum quibusdam, voluptatem, inventore qui repudiandae architecto, accusantium, saepe modi reprehenderit minima incidunt
+                                     </p>
+                                     <p class="feedback__item__content__name">
+                                         James H. Cervantez
+                                     </p>
+                                     <p class="feedback__item__content__position">
+                                         Web Developer
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="item">
+                            <div class="feedback__item">
+                                <img src="http://muzaddidul.com/conzex/assets/img/testimonial/img1.png" alt="" class="feedback__item__img">
+                                 <div class="feedback__item__content">
+                                     <span class="feedback__item__content__qoute">
+                                           <i class="fas fa-quote-left"></i>                                
+                                       </span>
+                                     <p class="feedback__item__content__text">
+                                         Voluptatibus, omnis nobis error reprehenderit perferendis velit quasi quos id deserunt accusantium eligendi cum quibusdam, voluptatem, inventore qui repudiandae architecto, accusantium, saepe modi reprehenderit minima incidunt
+                                     </p>
+                                     <p class="feedback__item__content__name">
+                                         James H. Cervantez
+                                     </p>
+                                     <p class="feedback__item__content__position">
+                                         Web Developer
+                                     </p>
+                                 </div>
+                             </div>
+                         </div>
+                    </div>
+                    <img src="http://muzaddidul.com/conzex/assets/img/testimonial/testi-round.png" alt="" class="feedback__circle">
+                    <img src="http://muzaddidul.com/conzex/assets/img/testimonial/testi-small-img.png" alt="" class="feedback__woman">
+                    <img src="http://muzaddidul.com/conzex/assets/img/testimonial/testi-small-round.png" alt="" class="feedback__circlSmall">
+                 </div>
+             </div>
+         </div>
+        
+    </div>
+    <div class="blog">
+        <h2 class="service__title">
+            The News From Our Blog
+        </h2>
+         <p class="service__content">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-4">
+                     <div class="blog__item wow animate__animated  animate__fadeInLeft" data-wow-delay="0.1s">
+                         <img src="http://muzaddidul.com/conzex/assets/img/blog/home-blog1.png" alt="" class="blog__item__img">
+                        <div class="blog__item__content">
+                            <h3 class="blog__item__content__title">
+                                3 Advantages of Using Next- Generation Firewalls
+                            </h3>
+                            <p class="blog__item__content__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <p class="blog__item__content__author">
+                                Tim J.Hill
+                            </p>
+                            <p class="blog__item__content__time">
+                                15 June 2019
+                            </p>
+                        </div>
+                        <div class="blog__item__bg">
+                            <p class="blog__item__bg__content">
+                                3 Advantages of Using Next- Generation Firewalls
+                            </p>
+                            <p class="blog__item__bg__time">
+                                5 min read
+                            </p>
+                        </div>
+
+                    </div>
+                 </div>
+                 <div class="col-lg-4">
+                    <div class="blog__item wow animate__animated  animate__fadeInUp" data-wow-delay="0.1s">
+                        <img src="http://muzaddidul.com/conzex/assets/img/blog/home-blog3.png" alt="" class="blog__item__img">
+                       <div class="blog__item__content">
+                           <h3 class="blog__item__content__title">
+                            3 Amazing Apps To Keep Track Of Your Spending                           </h3>
+                           <p class="blog__item__content__text">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                               tempor incididunt ut labore et dolore magna aliqua.
+                           </p>
+                           <p class="blog__item__content__author">
+                            Jonathon B. Banes
+                                                   </p>
+                           <p class="blog__item__content__time">
+                               15 June 2019
+                           </p>
+                       </div>
+                       <div class="blog__item__bg">
+                        <p class="blog__item__bg__content">
+                            3 Advantages of Using Next- Generation Firewalls
+                        </p>
+                        <p class="blog__item__bg__time">
+                            5 min read
+                        </p>
+                    </div>                   </div>
+                 </div>
+                 <div class="col-lg-4">
+                    <div class="blog__item wow animate__animated  animate__fadeInRight" data-wow-delay="0.1s">
+                        <img src="http://muzaddidul.com/conzex/assets/img/blog/home-blog2.png" alt="" class="blog__item__img">
+                       <div class="blog__item__content">
+                           <h3 class="blog__item__content__title">
+                            Everything You Need to Know About Cyber Warfare                           </h3>
+                           <p class="blog__item__content__text">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                               tempor incididunt ut labore et dolore magna aliqua.
+                           </p>
+                           <p class="blog__item__content__author">
+                            Edgar A. Selvidge                           </p>
+                           <p class="blog__item__content__time">
+                               15 June 2019
+                           </p>
+                       </div>
+                       <div class="blog__item__bg">
+                        <p class="blog__item__bg__content">
+                            3 Advantages of Using Next- Generation Firewalls
+                        </p>
+                        <p class="blog__item__bg__time">
+                            5 min read
+                        </p>
+                    </div>
+                   </div>
+                 </div>
+             </div>
+         </div>
+         <div class="logo">
+            <div class="container">
+                <div class="col-12">
+                    <div class="owl-carousel-logo owl-carousel owl-theme">
+                        <div class="item  logo__img__wrap">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/airbnb.png" alt="" class="logo__img">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/airbnb-color.png" alt="" class="logo__img__color">
+                        </div>
+                        <div class="item logo__img__wrap">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/google.png" alt="" class="logo__img">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/google-color.png" alt="" class="logo__img__color">
+    
+                        </div>
+                        <div class="item  logo__img__wrap">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/microsoft.png" alt="" class="logo__img">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/microsoft-color.png" alt="" class="logo__img__color">
+    
+                        </div>
+                        <div class="item  logo__img__wrap">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/slack.png" alt="" class="logo__img">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/slack-color.png" alt="" class="logo__img__color">
+    
+                        </div>
+                        <div class="item logo__img__wrap" >
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/asana.png" alt="" class="logo__img">
+                            <img src="http://muzaddidul.com/conzex/assets/img/clients/asana-color.png" alt="" class="logo__img__color">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="statistic__contact">
+            <div class="statistic__contact__content">
+                <h3 class="statistic__contact__content__title">
+                    Have any question about us?
+                </h3>
+                <p class="statistic__contact__content__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <button class="statistic__contact__btn">
+                CONTACT US
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer__left">
+                        <img src="http://muzaddidul.com/conzex/assets/img/logo/footer-logo.png" alt="" class="footer__left__img">
+                        <p class="footer__left__content">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+                        </p>
+                        <div class="footer__left__icon">
+                            <span>  <i class="fab fa-facebook-f"></i></span>
+                            <span>  <i class="fab fa-instagram"></i></i></span>                   
+                            <span><i class="fab fa-linkedin-in"></i></span>
+                            <span><i class="fab fa-github"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer__item">
+                        <h3 class="footer__item__title">
+                            COMPANY
+                        </h3>
+                        <ul class="footer__item__list">
+                            <li class="footer__item__name">
+                                About Us
+                            </li>
+                            <li class="footer__item__name">
+                                Services
+                            </li>
+                            <li class="footer__item__name">
+                                Features
+                            </li>
+                            <li class="footer__item__name">
+                                Our Pricing
+                            </li>
+
+                            <li class="footer__item__name">
+                                Latest News
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer__item">
+                        <h3 class="footer__item__title">
+                            COMPANY
+                        </h3>
+                        <ul class="footer__item__list">
+                            <li class="footer__item__name">
+                                About Us
+                            </li>
+                            <li class="footer__item__name">
+                                Services
+                            </li>
+                            <li class="footer__item__name">
+                                Features
+                            </li>
+                            <li class="footer__item__name">
+                                Our Pricing
+                            </li>
+
+                            <li class="footer__item__name">
+                                Latest News
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer__item">
+                        <h3 class="footer__item__title">
+                            COMPANY
+                        </h3>
+                        <ul class="footer__item__list">
+                            <li class="footer__item__name">
+                                About Us
+                            </li>
+                            <li class="footer__item__name">
+                                Services
+                            </li>
+                            <li class="footer__item__name">
+                                Features
+                            </li>
+                            <li class="footer__item__name">
+                                Our Pricing
+                            </li>
+
+                            <li class="footer__item__name">
+                                Latest News
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__coppyRight">
+                        <p class="footer__coppyRight__content">
+                            Copyright@2020 Coui. All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
 </html>
